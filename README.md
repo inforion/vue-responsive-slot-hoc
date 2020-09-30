@@ -6,7 +6,7 @@
 
 ### Basic
 
-This package provides a higher-order component (HOC) function that returns a new component, same as the provided one,
+This package provides a higher-order component (HOC) function that returns a new [Vue.js](https://vuejs.org/) component, same as the provided one,
 but with two additional slots.
 
 Content of both these slots will be passed into one chosen existing slot of the provided component:
