@@ -1,0 +1,57 @@
+{
+  "name": "vue-responsive-slot-hoc",
+  "version": "1.0.0",
+  "description": "Hides a part of slot content if component is too small to display it",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inforion/vue-responsive-slot-hoc.git"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "vue",
+    "slot",
+    "vue-hoc",
+    "hoc",
+    "responsive",
+    "adaptive"
+  ],
+  "main": "./dist/bundle.js",
+  "types": "./src/index.d.ts",
+  "files": [
+    "dist",
+    "src/**/*.ts",
+    "types"
+  ],
+  "author": "Nikolay Kudryavtsev <n.kudriavtsev@inforion.ru>",
+  "contributors": [
+    "Ivan Shabanov <i.shabanov@inforion.ru>"
+  ],
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "vue": "^2.0.0"
+  },
+  "dependencies": {
+    "merge-options": "3.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.4",
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "@typescript-eslint/parser": "^4.3.0",
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-import-resolver-typescript": "^2.3.0",
+    "eslint-plugin-disable": "^2.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^5.0.3",
+    "eslint-plugin-unicorn": "^22.0.0",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "vue": "^2.0.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
