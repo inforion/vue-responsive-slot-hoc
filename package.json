@@ -1,6 +1,6 @@
 {
   "name": "vue-responsive-slot-hoc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hides a part of slot content if component is too small to display it",
   "repository": {
     "type": "git",
