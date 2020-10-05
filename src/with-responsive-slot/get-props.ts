@@ -6,6 +6,12 @@ type PropsRecord = RecordPropsDefinition<Record<string, any>>;
 
 type Prop = PropsArray | PropsRecord;
 
+declare global {
+    interface ObjectConstructor {
+        fromEntries<T = any>(entries: Iterable<readonly [PropertyKey, T]>): { [k: string]: T };
+    }
+}
+
 export default function getProps(
     originalProps: Prop | undefined,
     groupPropName: string
